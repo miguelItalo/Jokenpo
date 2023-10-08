@@ -3,10 +3,20 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HomeComponent } from './pages/home/home.component';
+import { JokenpoComponent } from './components/jokenpo/jokenpo.component';
+import { HeaderComponent } from './components/header/header.component';
+import { OptionsContainerComponent } from './components/options-container/options-container.component';
+import { OptionComponent } from './components/option/option.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    JokenpoComponent,
+    HeaderComponent,
+    OptionsContainerComponent,
+    OptionComponent
   ],
   imports: [
     BrowserModule,

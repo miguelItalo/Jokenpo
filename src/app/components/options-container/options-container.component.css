@@ -1,0 +1,10 @@
+h1{
+  text-align: center;
+  color: var(--white);
+  margin-bottom: 1.5rem;
+}
+.options-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}

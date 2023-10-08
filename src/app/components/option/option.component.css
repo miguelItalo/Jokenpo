@@ -1,0 +1,24 @@
+.option{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.option-img{
+  font-size: 100px;
+  width: 250px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: var(--red);
+  cursor: pointer;
+  border: 3px solid var(--white);
+}
+.option-name{
+  font-size: 35px;
+  color: var(--white);
+  cursor: pointer;
+}

@@ -1,0 +1,26 @@
+.options-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.option{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.option-img{
+  font-size: 100px;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: var(--red);
+}
+.option-name{
+  font-size: 40px;
+  color: var(--white);
+}

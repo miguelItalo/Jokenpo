@@ -1,0 +1,30 @@
+{
+  "options": [
+    {
+      "id": 1,
+      "img": "✊",
+      "name": "PEDRA",
+      "index": 0,
+      "color": "var(--blue)"
+    },
+    {
+      "id": 2,
+      "img": "🖐️",
+      "name": "PAPEL",
+      "index": 1,
+      "color": "var(--green)"
+    },
+    {
+      "id": 3,
+      "img": "✌️",
+      "name": "TESOURA",
+      "index": 2,
+      "color": "var(--red)"
+    }
+  ],
+  "results": {
+    "A": "Você perdeu",
+    "B": "Você ganhou",
+    "C": "Empate"
+  }
+}
