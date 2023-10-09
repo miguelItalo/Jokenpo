@@ -1,2 +1,7 @@
 <app-header></app-header>
-<app-options-container></app-options-container>
+
+<app-options-container 
+  (EmitterResult)="onResult($event)" (EmitterComputerChoice)="onComputerChoice($event)" (EmitterFinished)="onFinished($event)">
+</app-options-container>
+
+<app-result *ngIf=isFinished [computerChoice]="computerChoice" [result]="result" (reset)="onReset($event)"></app-result>

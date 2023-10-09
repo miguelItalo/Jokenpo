@@ -8,6 +8,7 @@ import { JokenpoComponent } from './components/jokenpo/jokenpo.component';
 import { HeaderComponent } from './components/header/header.component';
 import { OptionsContainerComponent } from './components/options-container/options-container.component';
 import { OptionComponent } from './components/option/option.component';
+import { ResultComponent } from './components/result/result.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { OptionComponent } from './components/option/option.component';
     JokenpoComponent,
     HeaderComponent,
     OptionsContainerComponent,
-    OptionComponent
+    OptionComponent,
+    ResultComponent
   ],
   imports: [
     BrowserModule,

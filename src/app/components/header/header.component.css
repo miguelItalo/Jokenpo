@@ -4,6 +4,6 @@ header{
       color: var(--white);
       text-align: center;
       font-size: 30px;
-      text-shadow: 0 2.5px 0 var(--blue);
+      text-shadow: 0 4px 0 var(--blue);
       margin-bottom: 1rem;
 }

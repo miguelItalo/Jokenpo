@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { Option } from 'src/app/interfaces/option';
 
 @Component({
@@ -7,11 +7,16 @@ import { Option } from 'src/app/interfaces/option';
   styleUrls: ['./option.component.css']
 })
 export class OptionComponent {
+  @Output() playerChoice: EventEmitter<number> = new EventEmitter()
   @Input() option: Option = {
     "id": 1,
     "img": "a",
     "name": "ROCK",
     "index": 0,
     "color": "var(--blue)"
+  }
+
+  handleclick(value: number){
+    this.playerChoice.emit(value)
   }
 }
